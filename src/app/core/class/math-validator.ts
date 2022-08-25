@@ -13,11 +13,11 @@ export class MathValidator {
     };
   }
 
-  static subtraction(form: AbstractControl) {
-    const { a, b, answer } = form.value;
-    if (a + b === parseInt(answer)) {
-      return null;
-    }
-    return { addition: true };
-  }
+  // static subtraction(form: AbstractControl) {
+  //   const { a, b, answer } = form.value;
+  //   if (a + b === parseInt(answer)) {
+  //     return null;
+  //   }
+  //   return { addition: true };
+  // }
 }
